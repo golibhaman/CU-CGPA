@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #e0e0e0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+#cu{
+    height: 80%;
+    width: 20%;
+    position: absolute;
+    left: 3%;
+    visibility: visible;
+
+}
+#smallcu{
+    height: 80%;
+    width: 10%;
+    position: absolute;
+    left: 3%;
+    visibility: collapse;
+
+}
+.heading{
+    color: red;
+    position: absolute;
+    right: 5%;
+    font-size: 5vw;
+    visibility: collapse;
+}
+#naac{
+    height: 80%;
+    position: absolute;
+
+    right: 3%;
+}
+
+
+
+.calculation{
+    width: 50%;
+    height: 60%;
+    background-color: #f44336;
+    position: relative;
+    top: 30%;
+    left: 25%;
+}
+
+table{
+    position: absolute;
+    width: 60%;
+    height: 70%;
+
+    top: 12%;
+    left: 15%;
+}
+
+table,th,td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1500px) {
+    
+    #naac{
+        visibility: collapse;
+    }
+    .calculation{
+        width: 80vw;
+        left: 10vw;
+    }
+}
+
+.calc{
+    height: 10%;
+    width: 30%;
+    position: absolute;
+    left:17%;
+    bottom: 5%;
+    border-radius: 10%;
+
+    border-color: #f44336;
+}
+.calc:hover{
+    background-color: black;
+    color: white;
+}
+.cgpa{
+    position: absolute;
+    right:25%;
+    bottom: 5%;
+    color: white;
+}
+.grade{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width: 1000px) {
+    
+    .nav{
+        height: 10%;
+    }
+    #cu{
+        visibility: collapse;
+    }
+    #smallcu{
+        width: 20%;
+        visibility: visible;
+    }
+    .heading{
+        visibility: visible;
+    }
+    .calculation{
+        width: 100vw;
+        left: 0px;
+    }
+    table{
+        width: 90%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .calc{
+        left: 7%;
+        bottom: 6%;
+        
+    }
+
+    .cgpa{
+        bottom: 1%;
+        right: 1%;
+    }
+    
+    
+}
+
