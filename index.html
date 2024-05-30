@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate CGPA</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav">
+        <img src="culogo.webp" alt="logo" id="smallcu">
+        <img src="cu-logo.png" alt="culogo" id="cu">
+        <h1 class="heading">CHANDIGARH <br>UNIVERSITY</h1>
+        <img src="naac-logo.png" alt="naac A" id="naac">
+    </div>
+
+
+    
+    <div class="calculation">
+
+        <table>
+
+        <tr>
+            <th>Subject</th>  
+            <th>Credit</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td><html>DBMS</html></td>
+            <td class="Credit">4</td>
+            <td>
+            <select name="grade" class="grade">
+                <option value="0">Select</option>
+                <option value="10">A+</option>
+                <option value="9">A</option>
+                <option value="8">B+</option>
+                <option value="7">B</option>
+                <option value="6">c+</option>
+                <option value="5">C</option>
+                <option value="4">D</option>
+                <option value="0">F</option>
+           
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td><html>MATHS</html></td>
+            <td class="Credit">4</td>
+            <td> <select name="grade" class="grade">
+                <option value="0">Select</option>
+                <option value="10">A+</option>
+                <option value="9">A</option>
+                <option value="8">B+</option>
+                <option value="7">B</option>
+                <option value="6">c+</option>
+                <option value="5">C</option>
+                <option value="4">D</option>
+                <option value="0">F</option>
+           
+            </select></td>
+        </tr>
+        <tr>
+            <td><html>PYTHON</html></td>
+            <td class="Credit">3</td>
+            <td> <select name="grade" class="grade">
+                <option value="0">Select</option>
+                <option value="10">A+</option>
+                <option value="9">A</option>
+                <option value="8">B+</option>
+                <option value="7">B</option>
+                <option value="6">c+</option>
+                <option value="5">C</option>
+                <option value="4">D</option>
+                <option value="0">F</option>
+           
+            </select></td>
+        </tr>
+        <tr>
+            <td><html>OS</html></td>
+            <td class="Credit">3</td>
+            <td> <select name="grade" class="grade">
+                <option value="0">Select</option>
+                <option value="10">A+</option>
+                <option value="9">A</option>
+                <option value="8">B+</option>
+                <option value="7">B</option>
+                <option value="6">c+</option>
+                <option value="5">C</option>
+                <option value="4">D</option>
+                <option value="0">F</option>
+           
+            </select></td>
+        </tr>
+        <tr>
+            <td><html>NETEL</html></td>
+            <td class="Credit">3</td>
+            <td> <select name="grade" class="grade">
+                <option value="0">Select</option>
+                <option value="10">A+</option>
+                <option value="9">A</option>
+                <option value="8">B+</option>
+                <option value="7">B</option>
+                <option value="6">c+</option>
+                <option value="5">C</option>
+                <option value="4">D</option>
+                <option value="0">F</option>
+           
+            </select></td>
+        </tr>
+        <tr>
+            <td><html>GP</html></td>
+            <td class="Credit">1</td>
+            <td> <select name="grade" class="grade">
+                <option value="0">Select</option>
+                <option value="10">A+</option>
+                <option value="9">A</option>
+                <option value="8">B+</option>
+                <option value="7">B</option>
+                <option value="6">c+</option>
+                <option value="5">C</option>
+                <option value="4">D</option>
+                <option value="0">F</option>
+           
+            </select class="Credit"></td>
+        </tr>
+        <tr>
+            <td><html>MINI PROJECT</html></td>
+            <td class="Credit">1</td>
+            <td> <select name="grade" class="grade">
+                <option value="0">Select</option>
+                <option value="10">A+</option>
+                <option value="9">A</option>
+                <option value="8">B+</option>
+                <option value="7">B</option>
+                <option value="6">c+</option>
+                <option value="5">C</option>
+                <option value="4">D</option>
+                <option value="0">F</option>
+           
+            </select></td>
+        </tr>
+        <tr>
+            <td><html>GENDER EQITY</html></td>
+            <td class="Credit">2</td>
+            <td> <select name="grade" class="grade">
+                <option value="0">Select</option>
+                <option value="10">A+</option>
+                <option value="9">A</option>
+                <option value="8">B+</option>
+                <option value="7">B</option>
+                <option value="6">c+</option>
+                <option value="5">C</option>
+                <option value="4">D</option>
+                <option value="0">F</option>
+           
+            </select></td>
+        </tr>
+        </table>
+
+        <button class="calc" onclick="calculate()"><h2>Calculate</h2></button>
+        <h2 class="cgpa">CGPA : <span class="result">NULL</span></h2>
+
+        
+    </div>
+<script src="script.js"></script>
+    
+</body>
+</html>
